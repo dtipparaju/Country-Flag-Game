@@ -43,14 +43,14 @@ struct QuestionView: View {
                 Spacer()
             }
             .padding()
-            .frame(width: .infinity, height: .infinity)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(.cyan)
         }
         else {
             VStack(spacing: 20) {
                 Text("Country Flag Quiz")
                     .font(.title)
-                Text("Congradulaitons! You have completed the quiz.")
+                Text("Congrats! You have completed the quiz.")
                 Text("You scored \(quizManager.score) out of \(quizManager.questions.count)")
                 Button {
                     quizManager.reset()
@@ -58,7 +58,7 @@ struct QuestionView: View {
                     CustomButton(text: "Play Again?")
                 }
             }
-            .foregroundColor(.cyan)
+            .foregroundColor(.yellow)
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(.cyan)
