@@ -33,14 +33,6 @@ struct Data {
            ])
         ,
         Question(correctAnswer:
-                Answer(text: "Estonia", isCorrect: true),
-                 incorrectAnswers: [
-                Answer(text: "England", isCorrect: false),
-                Answer(text: "France", isCorrect: false),
-                Answer(text: "Czech Republic", isCorrect: false)
-           ])
-        ,
-        Question(correctAnswer:
                 Answer(text: "United States", isCorrect: true),
                  incorrectAnswers: [
                 Answer(text: "Italy", isCorrect: false),
@@ -174,14 +166,6 @@ struct Data {
                 Answer(text: "Norway", isCorrect: false),
                 Answer(text: "Denmark", isCorrect: false),
                 Answer(text: "Sweden", isCorrect: false)
-           ])
-        ,
-        Question(correctAnswer:
-                Answer(text: "Sudan", isCorrect: true),
-                 incorrectAnswers: [
-                Answer(text: "Omen", isCorrect: false),
-                Answer(text: "Yemen", isCorrect: false),
-                Answer(text: "Saudi Arabia", isCorrect: false)
            ])
         ,
         Question(correctAnswer:
